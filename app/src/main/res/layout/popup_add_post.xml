@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/popup_image_user"
+        android:layout_width="48dp"
+        android:layout_height="0dp"
+        android:background="@drawable/popup_edittext_style"
+        android:src="@drawable/person"
+        app:layout_constraintBottom_toBottomOf="@+id/popup_post_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/popup_post_description"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/popup_post_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_edittext_style"
+        android:ems="10"
+        android:hint="Write Anything"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/popup_image_user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/popup_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#4C4A4A"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toBottomOf="@id/popup_post_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <Button
+        android:id="@+id/popup_add_post"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/create_bg"
+        android:onClick="uploadPost"
+        android:text="Upload Post"
+        android:textSize="18dp"
+        android:textColor="@color/startBlue"
+
+        app:layout_constraintBottom_toBottomOf="@+id/popup_post_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/popup_post_image"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ProgressBar
+        android:padding="4dp"
+        android:background="@drawable/create_bg"
+        android:id="@+id/popup_post_progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/popup_add_post"
+        app:layout_constraintEnd_toEndOf="@+id/popup_add_post"
+        app:layout_constraintStart_toStartOf="@+id/popup_add_post"
+        app:layout_constraintTop_toTopOf="@+id/popup_add_post" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

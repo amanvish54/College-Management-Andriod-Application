@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">SGI</string>
+    <string name="title_activity_home_activity">Home_activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_home1">HomeActivity1</string>
+    <string name="title_activity_visit">Map</string>
+    <string name="branch_promt">Select Branch</string>
+
+    <string name="semester_promt">Select Semester</string>
+    <string-array name="Branch">
+        <item>Select</item>
+        <item>CS</item>
+        <item>CE</item>
+        <item>ME</item>
+        <item>IT</item>
+        <item>EX</item>
+        <item>EC</item>
+    </string-array>
+
+    <string-array name="Semester">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string name="location">Ayodhya vaypass,
+                             Bhopal 462003</string>
+    <string name="bustext1">
+                            A full fledged Transport department functions in the college with buses to provide transport facility to students and staff from various places.
+                            This service is offered ensuring a hassle-free and safe transportation.The College runs 50 buses for
+    </string>
+    <string name="bustext2">providing transport facility to students from various places in the city.
+                            Sirt College of Engineering and Technology provides faculty and students with transportation services from all parts of the city to the campus.
+                            The buses are comfortable and safe and all the Buses are under the survillance of CCTV Cameras and also the buses have GPS Tracker.
+
+    </string>
+    <string name="sport1">SIRT Group is proud to announce its first Sports Complex in SIRT Campus.
+                        In Madhya Pradesh, SIRT is the first Private Engineering College which is offering this  modern,well equipped, AC sports complex with gym facilities".
+                        </string>
+    <string name="sport2"> Sport complex hosts the extravagant gym,well stacked with high class equipments, Fully Air-conditioned and modern facilities for Badminton, Table Tennis, Yoga, etc. Special trainers available for Yoga &amp; gym."
+
+    </string>
+    <string name="library">SIRT Library is center of information to support the teaching, learning and research facility to the students and faculty members of the Institute.
+        Library provides various facilities to the users. SIRT has an excellent, well equipped,air
+       </string>
+    <string name="library2">conditioned library facilitates ever increasing collection and a wide range of subject books,reference book, on various topics.It also subscribes national and international journals of repute, regularly.
+    </string>
+    <string name="wificampus">The entire campus is Wi-fi enabled with high speed internet connection to allow the students to access the internet no-matter wherever they are. The coverage is not just limited to the classrooms, instead it extends to
+
+    </string>
+    <string name="wificampus1">all the facilities within the campus premises.Staff and Students are informed to utilize the Wi-Fi Facility
+        by Registering their i-connect devices for the active usage of the facility.
+    </string>
+
+    <string name="about_us"><![CDATA[The SAGE is the most emerging group of Engineering, Real state, Power & Media companies in central India. It serves in the area of engineering education as a prime duty. It is working by the name of Sagar Group of Institutions (SGI) in the education sector. The Sagar Institute of Research & Technology (SIRT) is the first Institution of SGI. It is a part of Sagar Group of Institutions which is also popularly called as Sagar Group or SIRT College in Bhopal. Ideally nested in the natural landscapes of Bhopal, the campus is well spread in 20 acres & fully based on Vastu principles. Its infrastructure, academic facilities, R&D projects, rich collection of books and International Journals in the library.
+                                The Sagar Group was in itself earlier working under patronage of Agrawal Group of Companies which is now named as The SAGE. It offers the education programs in Engineering, Pharmacy, Management, and Diploma. The SAGE is lead by the Chairman Er. Sanjeev Agrawal, who has been awarded more than 50 awards at National level. The Group also consists of number of sister colleges including SIRT, SIRT-S, SIRT-E, and SIRT-Indore with total 25+ courses and now it has expanded and established the SAGE University at Indore in 2017 and Bhopal in 2020. SIRT Bhopal has also received ISO certification: 9000-2001 in 2003, NBA Accreditation in 2009, 2014 and 2016. .]]></string>
+    <string name="vision">To motivate and mould students into world class professionals who will excel in their fields and effectively meet challenges of the dynamic global scenario.</string>
+    <string name="mission">Working towards being the best by incorporating the principles of total quality management &amp; excellence. Adopting IT based knowledge management to meet global challenges.</string>
+    <string name="spiritual_belief">The Sagar Group of Institutions (SIRT) Bhopal has reputation of engineering colleges in Bhopal. We believe the values are principles, standards or qualities that an individual or group of people hold. These values and beliefs guide the way we live our life and the decisions we make.</string>
+    <string name="chairman_msg">“No Substitute to Hard Work, Sooner or Later It  Gives Best Reward”</string>
+    <string name="chairperson_msg">“If you work hard enough and assert yourself, and use your mind and imagination, you can shape the world to your desires.”</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exe_director_msg_shivani">“To motivate, to monitor and to guide.”</string>
+    <string name="exe_director_msg_sakshi">“Dream to do great things shows immense enthusiasm of students”</string>
+    <string name="cse1">Known As:<u>Top CSE Department for Placement in Bhopal,MP</u></string>
+    <string name="cs2"><![CDATA[Computer Science” is an umbrella term which encompasses four major areas of computing: theory, algorithms, programming languages, and architecture.CSE branch of engineering is most popular branch of Industry because of tremendous job opportunities & highly entertaining courses related to the interest of today’s students.The Department of Computer Science and Engineering (CSE) at SIRT-S, Bhopal has started in the year 2007 in Under Graduate (BE) course program with intake of 60 students. Currently department has intake of 120 students in under graduate B-Tech program. Further in 2013, it started the post graduate (M.-Tech) program in the Computer Science and Engineering (CSE) stream with intake of 18 students, Currently Mtech program has intake of 24 students. The Department has a comprehensive curriculum as per the guidelines of RGPV which includes topics related to all aspects of Computer Hardware and Software with an emphasis on practical learning. The department also provides outstanding research guidance to M-Tech. students by senior faculty members having more than 10 years of experience in almost all areas of computer discipline The teaching aids used are conventional green /white boards, overhead projectors (OHP), LCDs, Smart Class Rooms and series of lectures available at NPTEL. The Department has state of the art infrastructure with the inclusion of computing equipment supported by high speed networks.]]></string>
+
+    <string name="cs3">To produce computer professionals for industries, academics and research to meet the requirements of Dynamic Global Scenario.</string>
+    <string name="cs4">To provide high quality IT based education and develops professionals in the field of computer science and engineering.</string>
+    <string name="me1"><b>Known For:</b> <u>Best Professor in Bhopal,MP</u></string>
+    <string name="me2"><![CDATA[Mechanical Engineering is associated with designing machines, analyzing and manufacturing mechanical production and systems. It is one of the oldest and broadest engineering. This branch of engineering involves design, production, and operation of machinery. There is a huge demand for skilled mechanical engineers in India and abroad. The expertise of a mechanical engineer is required in industries like automobiles, thermal power plants, gas turbines, oil, refining, agriculture, education, aviation, automobile, armed forces, pharmaceutical and much more. The Department of Mechanical Engineering (ME) at SIRTS, Bhopal has started in the year 2012 in Under Graduate (BE) course program. Currently department has intake of 60 students in under graduate B-TECH program. The Department has a comprehensive curriculum as per the guidelines of RGPV which includes topics related to all aspects of Mechanical engineering with an emphasis on practical learning. The department also provides outstanding research guidance to students for their projects by senior faculty members having more than 10 years of experience in the areas including the Manufacturing, Production, Thermal Engineering, Design & drawing, Energy & Environment, Fluid mechanics, Theory of machine, Power plant engineering etc.The teaching aids used are conventional black/white boards, overhead projectors (OHP), LCDs and series of lectures available at NPTEL. It has consistently fulfilled its role of producing Mechanical Engineers ready to satisfy the needs of the industrial world. Alumni of the ME department occupy top positions in Industries throughout the world.]]></string>
+    <string name="me3">Our vision is to be the premier Department of Mechanical Engineering that is recognized for its outstanding education, research, scholarly work and Certification (VACs) programs, and is renowned for the high quality of its graduates.</string>
+    <string name="me4">The mission of the department is to provide a high quality engineering education and contribute new knowledge through research in mechanical engineering to our students</string>
+    <string name="me5">Dr. Vidosh Mahate, HOD, ME has completed PhD in Mechanical Engineering. He has more than 18 years of teaching experience in various technical Institutions. His area of specialization is in Renewable Energy. He has guided more than 30 projects to BE students. He also has submitted a project under SERB and MPCoST.</string>
+    <string name="ce1"><b>Known For :</b> <u>Best Faculties and Lab Practices in Bhopal,MP</u></string>
+    <string name="ce2"><![CDATA[Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including works like roads, bridges, canals, dams, and buildings. Civil Engineering is most popular branch of Industry because of tremendous job opportunities & highly entertaining courses related to the interest of today’s students. Civil Engineering graduates can make a career in each area such as Design, Planning, Quality Control, Construction, Survey, Research, etc. Most of the Private sector Companies such as L&T, Tata, Wipro, Birla, Gammon India, JP Cement, ITC ltd etc recruit thousands of students of Civil engineering branch every year. The Department of Civil Engineering (CE) at SIRT-S, Bhopal have been started in the year 2009 in Under Graduate (BE) course program with intake of 30 students. Currently department has intake of 120 students in under graduate BE program. Further in 2012, it started the post graduate (M. Tech) program in the Structural Engineering (SE) stream with intake of 30 students The Department has a comprehensive curriculum as per the guidelines of RGPV which includes topics related to all aspects of Civil engineering with an emphasis on practical learning. The department also provides outstanding research guidance to M. Tech. students in the areas including Mix design, Structural design, design of structures etc. It has consistently fulfilled its role of producing Civil Engineers ready to satisfy the needs of the construction industry. Alumni of the Civil Engineering department occupy top positions in Industries throughout India.]]></string>
+    <string name="ce3">To produce world class Civil Engineers who can meet up the challenges of industry, academics and research in the global environment.</string>
+    <string name="ce4">Training civil engineering graduates to become successful professionals by providing high quality education, problem solving skills and knowledge of engineering tools.</string>
+    <string name="ce5"><b>Dr. Rakesh Patel, HOD, CE </b> has completed  PhD in Civil Engineering having experience of more than 16 years and published more than 50 research papers in journals and conferences.</string>
+    <string name="as1"><b>Known For:</b><u>Best Applied Science teaching faculty &amp; well equipped laboratories in Bhopal,MP </u></string>
+    <string name="as2">Applied science is a discipline of science that applies existing scientific knowledge to develop more practical applications, like technology or inventions. Department of Applied Science was established with the objective of imparting quality education in Basic subjects of Science. With rapidly evolving technology and the continuous need for innovation the department has always made a way to produce quality professionals, holding important positions in engineering industries in India and abroad. We are renowned for paving a smooth way for overall development and imparting quality education to the students. The department of Applied Sciences in SIRTS was established in 2007 and offers basic courses of Physics, Chemistry, Mathematics and Humanities with the total intake of 510 students. Department of Applied Science provide a fundamental background to the students that will serve as a launching pad for attractive career opportunities in academics and industries. The department offers. We aim to develop science education to serve two human purpose – to Know and to do. The faculty and staff of Applied Science department are well recognized scholars, innovative researchers and award winning teachers with full dedication to share their knowledge and ideas with students. This make the students and faculty work together, making a strong bond that persists long. We look forward to welcome many motivated students.</string>
+    <string name="as3">To motivate and mould the students into world class technocrats in the field of research, academics and industries to full fill the requirements of Dynamic Global Scenario with high efficiency.</string>
+    <string name="as4">Apply quality management principle in education and overall development of students and create the talents in engineering students with professional attitude and molding according to the challenges of the global scenario to develop the potentiality towards research, academics and industries.</string>
+    <string name="as5"><b>Dr. Pradeep Kumar Dwivedi, HoD Applied Science </b> has completed Ph.D in Mathematics. His area of specialization is in Fixed point theory. He has 20 years of teaching experience and also have more than 10 years of research experience. He has published more than 15 research papers in National &amp; International journals and conferences. </string>
+    <string name="sac1"><![CDATA[Student activities make a positive impact on the environment of any Institution as these are dedicated to helping students in developing their personality, perception, learning and attitude. There are many ways for students to get involved on campus so, in Sagar Group of Institutions, we have formed Student Activity Centre (SAC) which serve as a connection point for the students in finding the niche that is right for them. The main aim of SAC is to complement the academic experience of our students with extra-curricular programs that promote social and personal development. Our members advise and assist our student groups in planning various programs. This cell adds an additional set of valuable learning experiences for students & faculty.]]></string>
+    <string name="Personaliity_development_club"><![CDATA[The main objective of personality development club is to develop the character with competence. The club emphasizes on developing hidden soft skills which are significant to survive in the current competitive scenario. Thus the club conducts various workshops and training sessions by various experts from the corporate world as well as renowned & experienced academicians so as to develop communication skills and to learn industrial etiquettes which will help them in their near future. Abilities are only one part of the complex causal framework that determines whether a student pursues the gaining of knowledge and skills within a particular domain.]]></string>
+    <string name="danceclub">This club provides a platform for the budding Dancers and Acting talents to showcase their talents. It helps students to develop their physical and emotional state as a form of self-expression. The club organizes dance shows on different themes, competitions, Inspirational and awareness plays and skits to highlight the emerging talent of the young generation which will enhance their confidence. In this club \'Dance activities’ has performed dances, focusing on creating, adapting and linking a range of dance actions. These were inspired by a variety of subjects, including some traditional, social and historical dances.</string>
+    <string name="music_club">Music club has been set up to encourage talent in music instrumental as well as vocal. It is the best way to express our emotions and feelings. The club will help students to retain and enhance their own individual love of music. It also helps our community, developing a sense of group identity and togetherness. Music enables our students to better understand the world we live in. Music is the fabric of our society, and music can shape abilities and character. Students in band or orchestra are less likely to abuse substances over their lifetime. Musical education can greatly contribute to children’s intellectual development as well.</string>
+    <string name="art_craft_club"><![CDATA[This club enables students to reach their maximum creative potential. It provides a platform where students can be able to display their innovative ideas. This club includes various constructive Art & Craft activities that involve cooperation teamwork as well as problem-solving abilities. This will help in persuading activities artist & creative interacts with club members. Crafts that require drying require waiting! This is a great lesson for students to demonstrate self-control and patience. Also, things might not go exactly as we hoped! Crafts are a great way to promote flexibility in their career.]]></string>
+    <string name="sport_club">The club has been created with the motive of developing the spirit of sportsmanship. It motivates and encourages students to take part in various state and National level sports. This club will develop team spirit, punctuality and time management skills in our students. This also helps in providing a future planning approach and setting their goals. Sports club allow youth to build self-esteem as they learn to trust in their own abilities, receive encouragement and praise from coaches and parents, and learn to accept constructive criticism. They learn leadership, teamwork, problem-solving, responsibility, self-discipline, and a sense of initiative.</string>
+    <string name="csr_club">The club aims to use it as a platform for awareness and learning social and environmental issues. It will develop the passion for volunteerism and charity work in students. The club gives on opportunity to students to become better informed as on and engaged in issues and possible career paths. Public relations are a potent tool for shaping consumer perception and building a company’s image. Corporations that actively promote their social responsibility activities often take steps to broadcast these efforts through the media.</string>
+    <string name="vice_chairman_msg">“We cannot always build the future for our students, but we can build our students for the future”</string>
+
+
+
+</resources>

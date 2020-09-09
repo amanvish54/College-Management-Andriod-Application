@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:theme="@style/welcome_screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/clg_12"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:textColor="#54689E"
+                android:text="About Sagar Group Of Institutions"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="5dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Vision &amp; Mission"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_margin="5dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/vision"
+                            android:scaleType="fitXY"/>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:padding="2dp"
+                        android:foregroundGravity="fill"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vision"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:layout_margin="5dp">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/mission"
+                            android:scaleType="fitXY"/>
+
+
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:padding="2dp"
+                        android:foregroundGravity="fill"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mission"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Our Values &amp; Spiritual Beliefs"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/spiritual" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spiritual_belief"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="5dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Chairman's Message"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/chairman1"
+                            android:scaleType="fitXY"/>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Er. Sanjeev Agrawal"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:foregroundGravity="center"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#70C11F"
+                        android:text="@string/chairman_msg"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Chairperson's Message"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mrs. Kiran Agrawal"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:foregroundGravity="center"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#70C11F"
+                        android:text="@string/chairperson_msg"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/chairperson"
+                            android:scaleType="fitXY"/>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Executive Director, Operations Message"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/exe_director1"
+                            android:scaleType="fitXY"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+                    <TextView
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ms. Shivani Agarwal"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exe_director_msg_shivani"
+                        android:textColor="#70C11F"
+                        android:foregroundGravity="center"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Executive Director, Development Message"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ms. Sakshi Agarwal"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:foregroundGravity="center"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#70C11F"
+                        android:text="@string/exe_director_msg_sakshi"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/exe_director2"
+                            android:scaleType="fitXY"/>
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_bold_italic"
+                android:text="Vice Chairman's Message"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/underline"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="154dp"
+                        app:cardCornerRadius="50dp">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/vice_chairman"
+                            android:scaleType="fitXY"/>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+                    <TextView
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Prashant Jain"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vice_chairman_msg"
+                        android:textColor="#70C11F"
+                        android:foregroundGravity="center"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_brightness_medium_black_24dp"/>
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        android:icon="@drawable/ic_person_black_24dp"/>
+    <item
+        android:id="@+id/signup"
+        android:title="Sign  Up"
+        android:icon="@drawable/ic_person_add_black_24dp"/>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+</menu>

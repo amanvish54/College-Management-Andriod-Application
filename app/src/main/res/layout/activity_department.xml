@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity"
+    android:orientation="vertical"
+    android:paddingTop="20sp"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:onClick="onClick"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/cse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="Computer Science And Engg (CSE)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="•"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="Mechanical Engineering (ME)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_margin="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="Civil Engineering (CE)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_margin="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="Electrical and Electronics Engg (EX)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/as"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="Applied Science And Engg (AS)"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

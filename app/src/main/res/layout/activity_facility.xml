@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FacilityActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/aclonica"
+                    android:text="BUS FACILITY"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/bustext1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/bus"
+                    android:layout_width="177dp"
+                    android:layout_height="172dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="60dp"
+                    android:adjustViewBounds="true"
+                    android:background="@layout/bus"
+                    android:padding="5px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/buses" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="294dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/bustext2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="580dp"
+                    android:text="SPORT FACILITY"
+                    android:fontFamily="@font/aclonica"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="625dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/sport1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="195dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="625dp"
+                    android:background="@layout/bus"
+                    android:padding="5px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sport_complex" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="860dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/sport2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <TextView
+                    android:id="@+id/library"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1060dp"
+                    android:text="LIBRARY FACILITY"
+                    android:fontFamily="@font/aclonica"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="1110dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/library"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <ImageView
+                    android:id="@+id/lib"
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="1110dp"
+                    android:padding="5px"
+                    android:background="@layout/bus"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/library2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1360dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/library2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <TextView
+                    android:id="@+id/wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1550dp"
+                    android:text="WIFI FACILITY"
+                    android:fontFamily="@font/aclonica"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="1600dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/wificampus"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/wificampus"
+                    android:layout_width="186dp"
+                    android:layout_height="218dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="1600dp"
+                    android:background="@layout/bus"
+                    android:padding="5px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/facility_1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="1850dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/wificampus1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
